@@ -2,6 +2,7 @@
 import './App.scss';
 import About from './pages/About'
 import Header from './comp/Header'
+import Nav from './comp/Nav';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className='wrapper'>
       <div className='container'>
       <Header/>
+      <Nav/>
       <About/>
       </div>
       </div>
